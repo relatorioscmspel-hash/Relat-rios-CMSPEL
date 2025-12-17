@@ -1,7 +1,6 @@
 import { IndicatorData } from '../types';
 
 export const indicators: IndicatorData[] = [
-  // Diretriz 1
   {
     id: "Meta 1.1.1",
     description: "Aumentar o percentual do indicador sintético final (ISF) do Previne Brasil",
@@ -55,8 +54,7 @@ export const indicators: IndicatorData[] = [
     value2022: "R$ 620.569,50",
     value2023: "R$ 568.720,50",
     value2024: "R$ 536.810,19",
-    meta2024: "750.00",
-    notes: "Meta value appears as 750.00 in source, likely typo for count or scale."
+    meta2024: "750.00"
   },
   {
     id: "Meta 1.1.6",
@@ -421,7 +419,6 @@ export const indicators: IndicatorData[] = [
     value2024: "87%",
     meta2024: "95%"
   },
-  // Diretriz 2
   {
     id: "Meta 2.1.1",
     description: "ILPI fiscalizadas e monitoradas",
