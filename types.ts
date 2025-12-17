@@ -1,19 +1,11 @@
-export type GoalDirection = 'increase' | 'decrease' | 'maintain';
+export type ReportCategory = 'Anual' | 'Mensal' | 'Planejamento' | 'Prestação de Contas' | 'Outros';
 
-export interface IndicatorData {
+export interface Report {
   id: string;
+  title: string;
   description: string;
-  category: string;
-  direction: GoalDirection;
-  unit: string;
-  value2022: string;
-  value2023: string;
-  value2024: string;
-  meta2024: string;
-}
-
-export enum Status {
-  Success = 'success',
-  Fail = 'fail',
-  Neutral = 'neutral'
+  date: string;
+  category: ReportCategory;
+  fileSize: string;
+  fileType: 'pdf' | 'xlsx' | 'docx';
 }
